@@ -4,10 +4,11 @@ function setup() {
 
 
 function draw() {
-  background(100, 220, 100);
+  background(100,200,255);
   // background(r g, b);
-  quad(-200, 100, 200, 100, 200, -200, -200, -200);
-
+  fill(100, 255, 100);
+  rect(-200, 200, 400, -100);
+  fill(255, 255, 255);
   ellipse(100, 50, 100, 40);
   line(55, 40, 40, 20);
   line(40, 20, 25, 20);
@@ -24,3 +25,4 @@ function draw() {
   line(75, 70, 70,100);
   line(150, 50, 190, 30);
   circle(30, 25, 4);
+}
